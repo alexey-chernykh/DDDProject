@@ -1,0 +1,17 @@
+B:\VS Source\source\repos\FormValidationDDD\Entities\bin\Debug\net6.0\Entities.deps.json
+B:\VS Source\source\repos\FormValidationDDD\Entities\bin\Debug\net6.0\Entities.runtimeconfig.json
+B:\VS Source\source\repos\FormValidationDDD\Entities\bin\Debug\net6.0\Entities.dll
+B:\VS Source\source\repos\FormValidationDDD\Entities\bin\Debug\net6.0\Entities.pdb
+B:\VS Source\source\repos\FormValidationDDD\Entities\bin\Debug\net6.0\Domain.dll
+B:\VS Source\source\repos\FormValidationDDD\Entities\bin\Debug\net6.0\Domain.pdb
+B:\VS Source\source\repos\FormValidationDDD\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+B:\VS Source\source\repos\FormValidationDDD\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+B:\VS Source\source\repos\FormValidationDDD\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+B:\VS Source\source\repos\FormValidationDDD\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+B:\VS Source\source\repos\FormValidationDDD\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+B:\VS Source\source\repos\FormValidationDDD\Entities\obj\Debug\net6.0\Entities.csproj.CopyComplete
+B:\VS Source\source\repos\FormValidationDDD\Entities\obj\Debug\net6.0\Entities.dll
+B:\VS Source\source\repos\FormValidationDDD\Entities\obj\Debug\net6.0\refint\Entities.dll
+B:\VS Source\source\repos\FormValidationDDD\Entities\obj\Debug\net6.0\Entities.pdb
+B:\VS Source\source\repos\FormValidationDDD\Entities\obj\Debug\net6.0\Entities.genruntimeconfig.cache
+B:\VS Source\source\repos\FormValidationDDD\Entities\obj\Debug\net6.0\ref\Entities.dll
