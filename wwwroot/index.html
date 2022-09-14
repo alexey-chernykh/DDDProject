@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+</head>
+<body>
+
+<form action="handler.php" method="get" id="anketa" name="anketa">
+	<p><b>Форма регистрации в онлайн-игре:</b></p>
+	<p>
+	<label for="">Ник: <input type="text" name="name"></label><Br>
+	<label for="">Email: <input type="email" id="email" name="email"></label><Br>
+	<label for="">Дата рождения: <input type="date" name="date"></label><Br>
+	<label for="">Пол: 
+	<input type="radio" name="gender"> Мужской
+	<input type="radio" name="gender"> Женский
+	</label>
+	<Br>
+	<label for="">Страна: </label>
+	<input list="country">
+   	<datalist id="country">
+    <option value="Австралия"></option>
+    <option value="Австрия"></option>
+    <option value="Азербайджан"></option>
+    <option value="Албания"></option>
+    <option value="Алжир"></option>
+    <option value="Ангола"></option>
+    <option value="Андорра"></option>
+    <option value="Антигуа и Барбуда"></option>
+    <option value="Аргентина"></option>
+    <option value="Армения"></option>
+    <option value="Афганистан"></option>
+    <option value="Багамы"></option>
+    <option value="Бангладеш"></option>
+    <option value="Барбадос"></option>
+    <option value="Бахрейн"></option>
+    <option value="Белоруссия"></option>
+    <option value="Белиз"></option>
+    <option value="Бельгия"></option>
+    <option value="Бенин"></option>
+    <option value="Болгария"></option>
+    <option value="Боливия"></option>
+    <option value="Босния и Герцеговина"></option>
+    <option value="Ботсвана"></option>
+    <option value="Бразилия"></option>
+    <option value="Бруней"></option>
+    <option value="Буркина-Фасо"></option>
+    <option value="Бурунди"></option>
+    <option value="Вануату"></option>
+    <option value="Великобритания"></option>
+    <option value="Венгрия"></option>
+    <option value="Венесуэла"></option>
+    <option value="Вьетнам"></option>
+    <option value="Гватемала"></option>
+    <option value="Гвинея"></option>
+    <option value="Германия"></option>
+    <option value="Гондурас"></option>
+    <option value="Греция"></option>
+    <option value="Грузия"></option>
+    <option value="Дания"></option>
+    <option value="Египет"></option>
+    <option value="Замбия"></option>
+    <option value="Зимбабве"></option>
+    <option value="Израиль"></option>
+    <option value="Индия"></option>
+    <option value="Индонезия"></option>
+    <option value="Ирак"></option>
+    <option value="Иран"></option>
+    <option value="Ирландия"></option>
+    <option value="Исландия"></option>
+    <option value="Испания"></option>
+    <option value="Италия"></option>
+    <option value="Йемен"></option>
+    <option value="Казахстан"></option>
+    <option value="Камбоджа"></option>
+    <option value="Канада"></option>
+    <option value="Кипр"></option>
+    <option value="Киргизия"></option>
+    <option value="Китай"></option>
+    <option value="Колумбия"></option>
+    <option value="Конго"></option>
+    <option value="КНДР"></option>
+    <option value="Корея"></option>
+    <option value="Коста-Рика"></option>
+    <option value="Кот-д’Ивуар"></option>
+    <option value="Куба"></option>
+    <option value="Латвия"></option>
+    <option value="Литва"></option>
+    <option value="Лихтенштейн"></option>
+    <option value="Люксембург"></option>
+    <option value="Маврикий"></option>
+    <option value="Мавритания"></option>
+    <option value="Мадагаскар"></option>
+    <option value="Малайзия"></option>
+    <option value="Мали"></option>
+    <option value="Мальдивы"></option>
+    <option value="Мальта"></option>
+    <option value="Марокко"></option>
+    <option value="Мексика"></option>
+    <option value="Мозамбик"></option>
+    <option value="Молдавия"></option>
+    <option value="Монако"></option>
+    <option value="Монголия"></option>
+    <option value="Мьянма"></option>
+    <option value="Непал"></option>
+    <option value="Нигер"></option>
+    <option value="Нигерия"></option>
+    <option value="Нидерланды"></option>
+    <option value="Новая Зеландия"></option>
+    <option value="Норвегия"></option>
+    <option value="ОАЭ"></option>
+    <option value="Пакистан"></option>
+    <option value="Парагвай"></option>
+    <option value="Перу"></option>
+    <option value="Польша"></option>
+    <option value="Португалия"></option>
+    <option value="Россия"></option>
+    <option value="Руанда"></option>
+    <option value="Румыния"></option>
+    <option value="Сальвадор"></option>
+    <option value="Саудовская Аравия"></option>
+    <option value="Северная Македония"></option>
+    <option value="Сербия"></option>
+    <option value="Сингапур"></option>
+    <option value="Сирия"></option>
+    <option value="Словакия"></option>
+    <option value="Словения"></option>
+    <option value="США"></option>
+    <option value="Сомали"></option>
+    <option value="Судан"></option>
+    <option value="Таджикистан"></option>
+    <option value="Таиланд"></option>
+    <option value="Танзания"></option>
+    <option value="Тонга"></option>
+    <option value="Тунис"></option>
+    <option value="Туркмения"></option>
+    <option value="Турция"></option>
+    <option value="Уганда"></option>
+    <option value="Узбекистан"></option>
+    <option value="Украина"></option>
+    <option value="Уругвай"></option>
+    <option value="Филиппины"></option>
+    <option value="Финляндия"></option>
+    <option value="Франция"></option>
+    <option value="Хорватия"></option>
+    <option value="ЦАР"></option>
+    <option value="Чад"></option>
+    <option value="Черногория"></option>
+    <option value="Чехия"></option>
+    <option value="Чили"></option>
+    <option value="Швейцария"></option>
+    <option value="Швеция"></option>
+    <option value="Шри-Ланка"></option>
+    <option value="Эстония"></option>
+    <option value="Эфиопия"></option>
+    <option value="ЮАР"></option>
+    <option value="Южный Судан"></option>
+    <option value="Ямайка"></option>
+    <option value="Япония"></option>
+   	</datalist><Br>
+   	<label for="">Тип героя: </label><Br>
+	<input type="radio" name="herotype"> Урон
+	<input type="radio" name="herotype"> Танк<Br>
+	<input type="radio" name="herotype"> Фланг
+	<input type="radio" name="herotype"> Поддержка<Br>
+	<label for="">Игровой опыт в годах: 
+	<input type="range" name="experience" value="0" min="0" max="60" oninput="this.nextElementSibling.value = this.value">
+	<output>0</output>
+	</label><Br>
+	</p>
+	<p><input type="submit"></p>
+</form>
+<script src="js/site.js"></script>
+</body>
+</html>
