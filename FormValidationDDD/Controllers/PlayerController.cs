@@ -1,4 +1,4 @@
-﻿using Entities;
+using Entities;
 using Microsoft.AspNetCore.Mvc;
 using Repositories.Abstract;
 using ViewModels;
@@ -25,11 +25,11 @@ namespace FormValidationDDD.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Player player)
+        public async Task<IActionResult> Create(Player player)
         {
             try
             {
-                _repository.AddItemAsync(new Player
+                await _repository.AddItemAsync(new Player
                 {
                     Name = player.Name,
                     Email = player.Email,
@@ -65,7 +65,7 @@ namespace FormValidationDDD.Controllers
         [HttpPost]
         public async Task<IActionResult> Edit(Player player)
         {
-            await _repository.GhangeItemAsync(player);
+            await _repository.ChangeItemAsync(player);
             return Redirect("~/Player");
         }
 
