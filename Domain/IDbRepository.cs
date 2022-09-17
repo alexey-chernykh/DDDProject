@@ -12,7 +12,7 @@ namespace Domain
         Task<List<T>> ToListAsync();
         Task<bool> AddItemAsync(T item);
         Task<T> GetItemAsync(Guid id);
-        Task<bool> GhangeItemAsync(T item);
+        Task<bool> ChangeItemAsync(T item);
         Task<bool> DeleteItemAsync(Guid id);
         Task<int> SaveChangesAsync();
     }
